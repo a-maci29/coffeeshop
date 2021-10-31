@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='pos.css'>
+  </head>
+
+  <body>
+    <h1>Menu:</h1>
+
+    <section class='choices'>
+      <div id="coffee">
+        <button class="drink" id="coffeeSmall" value="2.50"><span>Small coffee</span><br><br>$2.50 </button>
+        <button class="drink" id="coffeeMedium" value="3.50"><span>Medium coffee</span><br><br>$3.50</button>
+        <button class="drink"  id="coffeeLarge" value="4.50"><span>Large coffee</span><br><br>$4.50</button>
+      </div>
+
+      <div id="tea">
+        <button class="drink" id="teaSmall" value="2.50"><span>Small tea</span><br><br>$2.50</button>
+        <button class="drink" id="teaMedium" value="3.50"><span>Medium tea</span><br><br>$3.50</button>
+        <button class="drink" id="teaLarge" value="4.50"><span>Large tea</span><br><br>$4.50</button>
+      </div>
+
+      <div id="juice">
+        <button class="drink" id="juiceSmall" value="3.50"><span>Small juice</span><br><br>$3.50</button>
+        <button class="drink" id="juiceMedium" value="4.50"><span>Medium juice</span><br><br>$4.50</button>
+        <button class="drink" id="juiceLarge" value="5.50"><span>Large juice</span><br><br>$5.50</button>
+      </div>
+      
+
+      <div class='submission'>
+
+        <div id="customerNameSection">
+          <label for="customerName">Customer's name:</label>
+          <input type="text" id="customerName" required/>
+          <ul>
+           <li class="total"></li>
+          </ul>
+        </div> 
+        <button id="submit" action="submit">Submit</button>
+
+      </div>
+      
+
+    </section>
+  
+      
+
+    <script src="order.js"></script>
+
+  
+  </body>
+</html>
