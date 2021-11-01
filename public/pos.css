@@ -1,20 +1,36 @@
-body {
+body{
+    /* padding-top:80px; */
+    word-wrap:break-word;
     background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23c30000' fill-opacity='1'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23c30000' fill-opacity='1'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Damion', cursive;
+  color: white;
+
+}
+#menu {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+h1 {
+    width: 100%;
+}
 .choices{
-    background-color: linear-gradient(red, blue);
+    background-color: linear-gradient(#c30000);
     display:flex;
+    width: 80%;
 }
 
 #coffee, #tea, #juice, .submission{
     border: 1px solid black;
     width: 200px;
     height: 400px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(#c30000);
     flex:1;
     margin:3px;
+    background-color: black;
 }
 
 .submission{
